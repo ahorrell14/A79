@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+/* Ensure the html and body take up the full height of the viewport */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Set the full height */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Style the dashboard container to fill the full height */
+.dashboard {
+  min-height: 100vh; /* Set minimum height to fill the viewport */
+  background-color: #A59A72; /* Your desired background color */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center align items horizontally (optional) */
+  justify-content: flex-start; /* Align content at the top */
+  padding: 2rem; /* Add padding around the content */
+  box-sizing: border-box; /* Include padding in element's height/width */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Example of styling the header, if any */
+.dashboard h1 {
+  color: black;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style for the main content area */
+.dashboard p {
+  color: black;
+  font-size: 1rem;
 }

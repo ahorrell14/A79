@@ -1,0 +1,44 @@
+/* Navbar container styling */
+.navbar {
+    background-color: #333; /* Background color of the navbar */
+    padding: 1rem 2rem; /* Padding inside the navbar (top/bottom, left/right) */
+    border-radius: 15px; /* Rounded corners for the navbar */
+    margin: 1rem; /* Add space around the navbar */
+    display: flex; /* Ensure the navbar content is aligned */
+    justify-content: center; /* Center the links horizontally */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+}
+
+/* Styling the unordered list to display links horizontally */
+.navbar-links {
+    list-style: none; /* Remove bullets */
+    display: flex; /* Make links horizontal */
+    gap: 1rem; /* Add spacing between links */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styling the links */
+.navbar-links a {
+    color: white;
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    padding: 0.5rem 1rem; /* Add padding around the links */
+    border-radius: 10px; /* Make links rounded */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Change link color and background on hover */
+.navbar-links a:hover {
+    background-color: #444; /* Slightly lighter background on hover */
+    color: #E8D1A7; /* Highlight color for text on hover */
+    text-decoration: none; /* Keep underline off */
+}
+
+/* Add some spacing between navbar and top of the page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Optional: light background for contrast */
+}

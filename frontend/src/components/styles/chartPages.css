@@ -1,0 +1,46 @@
+/* General container styling */
+.container {
+    background-color: #3e3e2f; /* Matching the navbar background */
+    color: #fff; /* White text for readability */
+    padding: 2rem; /* Add some padding */
+    border-radius: 10px; /* Slight rounding of the container */
+    max-width: 800px; /* Limit the width of the content */
+    margin: 2rem auto; /* Center the content on the page */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+}
+
+/* Heading styling */
+.container h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #E8D1A7; /* Highlighted color for the heading */
+}
+
+/* Paragraph styling */
+.container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+    color: #e4e4e4;
+}
+
+/* Link styling */
+.container a {
+    color: #E8D1A7; /* Match the hover color of the navbar */
+    text-decoration: underline;
+}
+
+.container a:hover {
+    color: #fff; /* White on hover */
+    text-decoration: none;
+}
+
+/* Loading message styling */
+.loading {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #b0b0b0; /* Subtle gray color for loading text */
+    text-align: center;
+    margin: 2rem 0;
+}
